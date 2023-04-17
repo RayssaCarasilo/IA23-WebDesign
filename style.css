@@ -1,0 +1,31 @@
+nav{
+    background-color: rgba(133, 122, 236, 0.658);
+}
+
+nav ul, nav li{
+    margin: 0;
+    padding: 0;
+}
+
+nav > ul{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+
+nav > ul > li{
+    background-color: rgba(78, 60, 235, 0.658);
+    list-style: none;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+nav ul > li > ul{
+    display: none;
+} 
+
+nav ul > li:hover > ul{
+    display: block;
+} 
