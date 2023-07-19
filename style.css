@@ -87,7 +87,7 @@ main{
 }
 
 div.galeria{
-  border: 5px solid rgb(121, 31, 8); 
+  border: 5px solid rgb(20, 5, 1); 
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 400px);
