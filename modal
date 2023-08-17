@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal</title>
+    <style>
+        .modal{
+            background-color: rgba(5, 13, 37, 0.349);
+            position: fixed;
+            inset: 0;
+        }
+
+        .modal .window{
+            background-color: #ffffff;
+            max-width: 80vmin;
+            max-height: 80vmin;
+            
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="modal">
+        <div class="window">
+            <button class="close">X</button>
+            <h1>Modal</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Corrupti alias sed quidem eos nam provident cum voluptates 
+            temporibus maiores dolore odio accusamus nihil possimus, ducimus
+            inventore debitis praesentium. Impedit, quia.</p>
+            <div class="content">
+            </div>
+                <div class="actions"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
